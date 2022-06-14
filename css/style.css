@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+background-color: #A5AE9E;
+}
+
+.titulo1{
+    background-color: #7E846B;
+    padding-left: 550px;
+    font-size: 70px;
+    
+}
+.titulo2{
+    background-color: #7E846B;
+    padding-left: 60px;
+    margin-top: 55px;
+    font-size: 30px;
+    display: inline-block;
+}
+.titulo3{
+    background-color: #7E846B;
+    padding-left: 60px;
+    margin-top: 55px;
+    font-size: 22px;
+    display: inline-block;
+}
+.linav{
+    display: inline-flex;
+    padding-left: 100px;
+    width: 50px;
+    font-family: sans-serif;
+    height:45px;
+    padding-top:14px;
+}
+.prueba{
+    background-color: #D0DDD7;
+    padding-left: 340px;
+}
+
+.p{
+    padding-left: 60px;
+    padding-top:10px;
+}
+.italic{
+    font-style:italic;
+    padding-left: 60px;
+}
+.tabla{
+    font-size: 20px;
+    padding-left: 60px;
+    border: green 5px dotted;
+    
+}
+.tabla2{
+    padding-left: 60px;
+    margin: 10px;
+    border: 0px;
+}
+.main{
+    background-color: #A5AE9E;
+}
+.footer{
+    padding-top: 50px;
+    padding-left: 45%;
+    padding-bottom:100px;
+    background-color: #D0DDD7; 
+}
+.tr{
+    padding: 50px;
+    margin-bottom:30px;
+}
+.olprod{
+    padding-left:30px;
+}
+.lipro{
+    font-size:18px;
+    padding-left: 60px;
+    padding-top:25px;
+}
+.tituloc{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:60px;
+    padding-left: 60px;
+    
+}
+.textBlog{
+    margin-top:30px;
+    padding-left: 60px;
+}
+.textBlogg{
+    margin-top:10px;
+    padding-left: 60px;
+}
+.divcon{
+    padding-left:30vw;
+    padding-top:30px;
+}
+.label{
+    margin-top:30px;
+}
+.final{
+    font-weight:bold;
+    font-size:20px;
+}
+@keyframes cambioColor{
+    0%{
+        background-color: gree;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+}
