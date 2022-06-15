@@ -19,6 +19,8 @@ background-color: #A5AE9E;
     margin-top: 55px;
     font-size: 30px;
     display: inline-block;
+    animation-name: cambioColor;
+
 }
 .titulo3{
     background-color: #7E846B;
@@ -108,15 +110,15 @@ background-color: #A5AE9E;
 }
 @keyframes cambioColor{
     0%{
-        background-color: gree;
+        background-color: #7E846B;
     }
     50%{
-        background-color: orange;
+        background-color: #717c4f;
     }
     75%{
-        background-color: yellow;
+        background-color: rgb(123, 123, 31)B;
     }
     100%{
-        background-color: green;
+        background-color: #648203;
     }
 }
