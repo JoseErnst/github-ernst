@@ -24,7 +24,7 @@ background-color: #A5AE9E;
     display: inline-block;
     animation-name: cambioColor;
     animation-duration: 2s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 
 }
 .titulo3{
@@ -58,6 +58,17 @@ background-color: #A5AE9E;
     animation-duration: 3s;
     animation-iteration-count: 5;
 }
+.logo{
+    height: 100px;
+    margin: 40px;
+    animation-name: rotacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+.logo:hover{
+    transform: translate(-200px; -750px);
+}
 .tabla{
     font-size: 20px;
     padding-left: 60px;
@@ -77,9 +88,7 @@ background-color: #A5AE9E;
     padding-left: 45%;
     padding-bottom:100px;
     background-color: #D0DDD7; 
-    animation-name: rotacion;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    
 }
 .tr{
     padding: 50px;
@@ -144,17 +153,17 @@ background-color: #A5AE9E;
         background-color: #278383;
     }
 }
-keyframes rotacion{
+@keyframes rotacion{
     0%{
         transform: rotate(0deg);
-        transition: .3s;
+        transition: .8s;
     }
     50%{
         transform: rotate(180deg);
-        transition: .3s;
+        transition: .8s;
     }
     100%{
         transform: rotate(360deg);
-        transition: .3s;
+        transition: .8s;
     }
 }
